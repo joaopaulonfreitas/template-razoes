@@ -1,0 +1,203 @@
+@import url(fonts.css);
+@import url(Boot.css);
+
+* {
+  font-family: "Segoe UI";
+}
+
+:root {
+  /* 
+    --themeColorA: #dd336b;
+    --themeColorB: #f4407c; 
+    */
+  --themeColorA: #260742;
+  --themeColorA_h: #1d0333;
+  --themeColorA_l: #350859;
+  --themeColorA_m: #330045;
+  --themeColorB: #ffbf08;
+  --themeColorB_h: #be7826;
+}
+
+.color-primary {
+  color: var(--themeColorA);
+}
+.color-primary-h {
+  color: var(--themeColorA_h);
+}
+.color-primary-l {
+  color: var(--themeColorA_l);
+}
+.bg-primary {
+  background-color: var(--themeColorA);
+}
+.bg-primary-h {
+  background-color: var(--themeColorA_h);
+}
+.bg-primary-l {
+  background-color: var(--themeColorA_l);
+}
+.bg-primary-m {
+  background-color: var(--themeColorA_m);
+}
+
+.color-secondary {
+  color: var(--themeColorB);
+}
+.color-secondary-h {
+  color: var(--themeColorB_h);
+}
+.color-secondary-l {
+  color: var(--themeColorB_l);
+}
+.bg-secondary {
+  background-color: var(--themeColorB);
+}
+.bg-secondary-h {
+  background-color: var(--themeColorB_h);
+}
+.bg-secondary-l {
+  background-color: var(--themeColorB_l);
+}
+
+body {
+  background-color: var(--themeColorA);
+  color: #fff;
+}
+
+/* CARROSSEL */
+
+.owl-carousel {
+  position: relative;
+  height: 100%;
+}
+.owl-carousel div:not(.owl-controls) {
+  height: 100%;
+}
+.owl-carousel .owl-item {
+  width: 100%;
+}
+.owl-carousel div.owl--text {
+  position: absolute;
+  bottom: 4em;
+  left: 2em;
+  width: 20em;
+  height: 8em;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+.owl-carousel .owl-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.owl-carousel .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  zoom: 1;
+  margin: 0;
+  width: 50px;
+  height: 30px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 0.9em;
+  border-radius: 3px;
+  color: #fff;
+  background: #000;
+  opacity: 0.6;
+  text-transform: capitalize;
+}
+.owl-carousel .owl-controls .owl-buttons .owl-prev {
+  left: 5px;
+}
+.owl-carousel .owl-controls .owl-buttons .owl-next {
+  right: 5px;
+}
+
+/* MAIN HEADER */
+.main_header_overlay {
+  background-color: var(--themeColorA);
+}
+
+header h1 {
+  color: var(--themeColorB);
+  text-transform: uppercase;
+  font-size: 52px;
+}
+
+/* MAIN CONTENT ABOUT */
+.main_content_about {
+}
+
+/* MAIN CONTENT AUTHORS */
+.main_content_authors {
+  background-image: url("../Images/bg-participantes.png");
+  background-size: 90%;
+}
+.main_content_authors img {
+  width: 100%;
+}
+.main_content_authors article h3 {
+  background-color: var(--themeColorB);
+}
+
+/* MAIN VOTES */
+.main_content_vote a {
+  background-color: var(--themeColorB);
+  color: var(--themeColorA);
+  border-bottom: 2px solid var(--themeColorB_h);
+}
+.main_content_vote a:hover {
+  background-color: var(--themeColorB_h);
+  color: var(--themeColorA);
+}
+.main_content_vote .j_category_toogle_content {
+  display: none;
+}
+
+/* MAIN FOOTER */
+.main_footer li a {
+  background-color: var(--themeColorA);
+}
+.main_footer li a:hover {
+  background-color: var(--themeColorB_h);
+}
+
+/* MODALS */
+.main_modals_content {
+  min-height: 150px;
+}
+.j_close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.j_close:hover {
+  color: var(--themeColorB);
+}
+
+#votacao_confirma button {
+  color: var(--themeColorA);
+  font-weight: bold;
+  background-color: var(--themeColorB);
+  border-bottom: 2px solid #5b007e;
+  border-right: 2px solid #5b007e;
+}
+
+#votacao_confirma button:hover {
+  background-color: var(--themeColorB_h);
+  color: #ffffff;
+}
+
+#votacao_obrigado li a {
+  background-color: var(--themeColorB);
+  color: var(--themeColorA);
+}
+#votacao_obrigado li a:hover {
+  background-color: var(--themeColorB_h);
+}

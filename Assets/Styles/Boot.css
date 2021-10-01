@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+:root{
+    --green: #46ceac;
+    --green_h: #35ba9b;
+    --green_l: #61ddbc;
+
+    --blue: #4fc0e8;
+    --blue_h: #3aadd9;
+    --blue_l: #66d4f1;
+
+    --yellow: #fdcd56;
+    --yellow_h: #f5b945;
+    --yellow_l: #fbd277;
+
+    --red: #eb5463;
+    --red_h: #d94452;
+    --red_l: #f76c82;
+}

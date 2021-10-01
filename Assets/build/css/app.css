@@ -1,0 +1,25 @@
+@import url(tailwind.css);
+
+@import url(fonts.css);
+
+@import url(Boot.css);
+
+*{
+  font-family: 'Segoe UI';
+}
+
+:root{
+  /* 
+    --themeColorA: #dd336b;
+    --themeColorB: #f4407c; 
+    */
+  --themeColorA: #260742;
+  --themeColorA_h: #1D0333;
+  --themeColorB: #FFBF08;
+  --themeColorB_h: #BE7826;
+}
+
+body{
+  background-color: var(--themeColorA);
+  color:#fff;
+}

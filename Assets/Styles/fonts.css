@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Black'), local('SegoeUIBlack'),
+        url('../fonts/primary/SegoeUIBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: local('Segoe UI Semilight'), local('SegoeUI-Semilight'),
+        url('../fonts/primary/SegoeUI-Semilight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Bold Italic'), local('SegoeUI-BoldItalic'),
+        url('../fonts/primary/SegoeUI-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Light Italic'), local('SegoeUI-LightItalic'),
+        url('../fonts/primary/SegoeUI-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Semibold'), local('SegoeUI-Semibold'),
+        url('../fonts/primary/SegoeUI-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Black Italic'), local('SegoeUIBlack-Italic'),
+        url('../fonts/primary/SegoeUIBlack-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI'), local('SegoeUI'),
+        url('../fonts/primary/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Light'), local('SegoeUI-Light'),
+        url('../fonts/primary/SegoeUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Italic'), local('SegoeUI-Italic'),
+        url('../fonts/primary/SegoeUI-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Semibold Italic'), local('SegoeUI-SemiboldItalic'),
+        url('../fonts/primary/SegoeUI-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: local('Segoe UI Semilight Italic'), local('SegoeUI-SemilightItalic'),
+        url('../fonts/primary/SegoeUI-SemilightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Bold'), local('SegoeUI-Bold'),
+        url('../fonts/primary/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Univia Pro Ultra';
+    src: local('Univia Pro Ultra Light Italic'), local('UniviaPro-UltraLightItalic'),
+        url('../fonts/secondary/UniviaPro-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Black'), local('UniviaPro-Black'),
+        url('../fonts/secondary/UniviaPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Italic'), local('UniviaPro-Italic'),
+        url('../fonts/secondary/UniviaPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Bold Italic'), local('UniviaPro-BoldItalic'),
+        url('../fonts/secondary/UniviaPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Black Italic'), local('UniviaPro-BlackItalic'),
+        url('../fonts/secondary/UniviaPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Bold'), local('UniviaPro-Bold'),
+        url('../fonts/secondary/UniviaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro Book';
+    src: local('Univia Pro Book'), local('UniviaPro-Book'),
+        url('../fonts/secondary/UniviaPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Light Italic'), local('UniviaPro-LightItalic'),
+        url('../fonts/secondary/UniviaPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro Ultra';
+    src: local('Univia Pro Ultra'), local('UniviaPro-Ultra'),
+        url('../fonts/secondary/UniviaPro-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro Book';
+    src: local('Univia Pro Book Italic'), local('UniviaPro-BookItalic'),
+        url('../fonts/secondary/UniviaPro-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Light'), local('UniviaPro-Light'),
+        url('../fonts/secondary/UniviaPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Thin Italic'), local('UniviaPro-ThinItalic'),
+        url('../fonts/secondary/UniviaPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Medium Italic'), local('UniviaPro-MediumItalic'),
+        url('../fonts/secondary/UniviaPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro Ultra';
+    src: local('Univia Pro Ultra Light'), local('UniviaPro-UltraLight'),
+        url('../fonts/secondary/UniviaPro-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Regular'), local('UniviaPro-Regular'),
+        url('../fonts/secondary/UniviaPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Medium'), local('UniviaPro-Medium'),
+        url('../fonts/secondary/UniviaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro Ultra';
+    src: local('UniviaPro-UltraItalic'),
+        url('../fonts/secondary/UniviaPro-UltraItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: local('Univia Pro Thin'), local('UniviaPro-Thin'),
+        url('../fonts/secondary/UniviaPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
